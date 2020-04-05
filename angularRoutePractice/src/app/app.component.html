@@ -1,0 +1,18 @@
+<h1>Main Component</h1>
+<button
+  mat-raised-button
+  color="primary"
+  [routerLink]="['/base1']"
+  routerLinkActive="router-link-active"
+>
+  Base-1
+</button>
+<button
+  mat-raised-button
+  color="accent"
+  [routerLink]="['/base2']"
+  routerLinkActive="router-link-active"
+>
+  Base-2
+</button>
+<router-outlet></router-outlet>
